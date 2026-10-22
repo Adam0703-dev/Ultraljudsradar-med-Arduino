@@ -1,0 +1,23 @@
+# Arduino build outputs
+build/
+*.elf
+*.hex
+*.eep
+*.bin
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets
+arduino_secrets.h
+.env
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
